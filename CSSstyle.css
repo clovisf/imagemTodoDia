@@ -1,0 +1,21 @@
+﻿/* as seen in https://gridbyexample.com/examples/example33/ */
+
+html {
+	font-family: 'Muli', sans-serif;
+}
+body {
+	margin: 0px;
+	background-color: #fff;
+}
+a:link{
+color: #00A2E8;
+text-decoration-style: dotted;
+}
+a:visited{
+color: #000; 
+}
+a:hover{
+color: #fff;
+background-color: #B5E61D; 
+text-decoration-line: none;
+}
