@@ -15,14 +15,17 @@
 <body>
 
 <script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'arduino',
-        clientId: '5ec7b69569ba47179082a89d0fa4b53f'
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: '5716887488',
+        accessToken: '5ec7b69569ba47179082a89d0fa4b53f'
     });
-    feed.run();
+    userFeed.run();
 </script>
+
 <div id="instafeed"></div> 
+<!-- user ID: 5716887488 -->
+<!-- client ID: 5ec7b69569ba47179082a89d0fa4b53f -->
 <br>
 <a href="#" target="_blank">Link de teste</a>
 
