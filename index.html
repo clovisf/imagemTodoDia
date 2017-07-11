@@ -10,7 +10,20 @@
 
 <link rel="stylesheet" type="text/css" href="CSSstyle.css">
 <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+
 <body>
+<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'arduino',
+        clientId: '5ec7b69569ba47179082a89d0fa4b53f'
+    });
+    feed.run();
+</script>
+<br>
 <a href="#" target="_blank">Link de teste</a>
+
 </body>
 </html>
