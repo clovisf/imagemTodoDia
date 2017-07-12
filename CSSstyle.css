@@ -5,7 +5,7 @@ html {
 }
 body {
 	margin: 0px;
-	background-color: #fff;
+	background-color: ;
 }
 
 .sidebar {
@@ -14,11 +14,14 @@ body {
 
     .content {
         grid-area: content;
+	float: center;
     }
 
     .header {
         grid-area: header;
 	height: 100px;
+	margin: 0px;
+	padding: 0px;
 	
     }
 
@@ -28,6 +31,8 @@ body {
  	width: 100%;
   	bottom: 0;
 	height: 40px;
+	padding: 0px;
+	margin: 0px;
     }
 
 
@@ -39,23 +44,21 @@ body {
     	"header header"
         "content sidebar"
         "footer footer";
-        background-color: #fff;
+       
         color: #444;
     }
 
 
 .box {
 	
-  background-color: #444;
-  color: #fff;
- 
+  background-color:;
   padding: 10px;
   font-size: 150%;
 }
 
 .header,
 .footer {
-	background-color: #999;
+	background-color: #B5E51D;
 	min-width: 700px;
 }
 
@@ -71,4 +74,18 @@ a:hover{
 color: #fff;
 background-color: #00A8Eb; 
 text-decoration-line: none;
+}
+p.title{
+	text-align: left;
+}
+p.subtitle{
+	text-indent: 10px;
+	font-size: 70%;
+}
+p.backtotop{
+	text-align: center;
+	font-size: 60%;
+}
+p.twitterwidget{
+text-align: center;
 }
